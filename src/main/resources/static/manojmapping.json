@@ -1,0 +1,9 @@
+{
+   "fname" : "firstname",
+   "dob" : "dateofbirth",
+   "voterNumber" : "voterId",
+   "cibilScore" : "cibil_Score",
+   "amount" : "loan_amount",
+   "loanID" : "loanId",
+   "date" : "date_of_creation"
+}
