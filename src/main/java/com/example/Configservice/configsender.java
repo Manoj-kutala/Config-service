@@ -31,13 +31,19 @@ public class configsender {
             Object obj = parser.parse(new FileReader("src/main/resources/static/"+orgname+"mapping.json"));
             jsonObject = (JSONObject)obj;
 
-            System.out.println(jsonObject);
+//            System.out.println(jsonObject);
             System.out.println("\n**************\n\n");
-            System.out.println(jsonObject.toString());
+//            System.out.println(jsonObject.toString());
+            System.out.println("-------------");
+
+//            String sam = mappingRepository.getMappingfileByName(orgname);
+//            System.out.println("message-------->"+sam);
 
         } catch(Exception e) {
             e.printStackTrace();
         }
+
+
 
         return jsonObject.toString();
 

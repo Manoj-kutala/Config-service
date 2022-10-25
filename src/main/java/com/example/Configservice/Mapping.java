@@ -1,23 +1,14 @@
 package com.example.Configservice;
 
-import org.hibernate.annotations.TypeDef;
-import org.hibernate.annotations.TypeDefs;
-//import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
-//import com.vladmihalcea.hibernate.type.json.JsonStringType;
-import org.json.simple.JSONObject;
-import org.w3c.dom.Text;
+
+import lombok.Data;
 
 import javax.persistence.*;
-import java.awt.*;
-//import javax.persistence.Id;
 
 
 @Entity
+@Data
 @Table(name="originatormapping")
-//@TypeDefs({
-//        @TypeDef(name = "json", typeClass = JsonStringType.class),
-//        @TypeDef(name = "jsonb", typeClass = JsonBinaryType.class)
-//})
 public class Mapping {
 
 
@@ -27,20 +18,20 @@ public class Mapping {
     private Integer id;
     @Column(name = "name")
     private String originatorName;
-    @Column(name = "workspaceid")
-    private Integer workspaceId;
+    @Column(name = "workflowid")
+    private Integer workflowId;
 
-    @Column(name = "mappingfile")
+    @Column(name = "mappingfile",columnDefinition="JSON")
     private String mappingfile;
 
     public Mapping() {
     }
 
-    public Mapping(Integer id, String originatorName, Integer workspaceId, String mappingfile) {
+    public Mapping(Integer id, String originatorName, Integer workflowId, String mappingfile) {
         super();
         this.id = id;
         this.originatorName = originatorName;
-        this.workspaceId = workspaceId;
+        this.workflowId = workflowId;
         this.mappingfile = mappingfile;
     }
 
@@ -61,11 +52,11 @@ public class Mapping {
     }
 
     public Integer getWorkspaceId() {
-        return workspaceId;
+        return workflowId;
     }
 
     public void setWorkspaceId(Integer workspaceId) {
-        this.workspaceId = workspaceId;
+        this.workflowId = workspaceId;
     }
 
     public String getMappingfile() {
