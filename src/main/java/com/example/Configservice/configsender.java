@@ -4,6 +4,7 @@ package com.example.Configservice;
 //import org.apache.tomcat.util.json.JSONParser;
 //import org.codehaus.jettison.json.JSONArray;
 //import org.codehaus.jettison.json.JSONObject;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,6 +15,9 @@ import java.io.FileReader;
 
 @RestController
 public class configsender {
+
+//    @Autowired
+//    private MappingRepository mappingRepository;
 
     @PostMapping("/sendfile")
     public String run(@RequestBody String orgname) throws Exception {
