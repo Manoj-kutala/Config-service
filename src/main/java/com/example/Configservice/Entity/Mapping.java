@@ -1,4 +1,4 @@
-package com.example.Configservice;
+package com.example.Configservice.Entity;
 
 
 import lombok.Data;
