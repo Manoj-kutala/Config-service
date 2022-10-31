@@ -12,19 +12,19 @@
               {
                 "isMandatory": true,
                 "yubiFieldName": "originator_ID",
-                "originatorFieldName": "OriginatorID",
+                "originatorFieldName": "originatorID",
                 "datatype": "String"
               },
               {
                 "isMandatory": true,
-                "yubiFieldName": "Client_customer_ID",
-                "originatorFieldName": "ClinetCustomerID",
+                "yubiFieldName": "client_customer_ID",
+                "originatorFieldName": "clinetCustomerID",
                 "datatype": "String"
               },
               {
                 "isMandatory": true,
                 "yubiFieldName": "customer_Type",
-                "originatorFieldName": "CustomerType",
+                "originatorFieldName": "customerType",
                 "datatype": "String"
               }
             ]
@@ -35,19 +35,19 @@
               {
                 "isMandatory": true,
                 "yubiFieldName": "identifier_Type",
-                "originatorFieldName": "IdentifierType",
+                "originatorFieldName": "identifierType",
                 "datatype": "String"
               },
               {
                 "isMandatory": true,
                 "yubiFieldName": "identifier",
-                "originatorFieldName": "Identifier",
+                "originatorFieldName": "identifier",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "issuing_country",
-                "originatorFieldName": "IssuingCountry",
+                "originatorFieldName": "issuingCountry",
                 "datatype": "String"
               }
             ]
@@ -58,115 +58,115 @@
               {
                 "isMandatory": true,
                 "yubiFieldName": "first_name",
-                "originatorFieldName": "FirstName",
+                "originatorFieldName": "firstName",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "middle_name",
-                "originatorFieldName": "MiddleName",
+                "originatorFieldName": "middleName",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "last_name",
-                "originatorFieldName": "LastName",
+                "originatorFieldName": "lastName",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "date_of_birth",
-                "originatorFieldName": "DateOfBirth",
+                "originatorFieldName": "dateOfBirth",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "gender",
-                "originatorFieldName": "Gender",
+                "originatorFieldName": "gender",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "marital_status",
-                "originatorFieldName": "MartialStatus",
+                "originatorFieldName": "martialStatus",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "category",
-                "originatorFieldName": "Category",
+                "originatorFieldName": "category",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "religion",
-                "originatorFieldName": "Religion",
+                "originatorFieldName": "religion",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "nationality",
-                "originatorFieldName": "Nationality",
+                "originatorFieldName": "nationality",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "spouse_name",
-                "originatorFieldName": "SpouceName",
+                "originatorFieldName": "spouceName",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "father_name",
-                "originatorFieldName": "FatherName",
+                "originatorFieldName": "fatherName",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "mother_name",
-                "originatorFieldName": "MotherName",
+                "originatorFieldName": "motherName",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "number_of_dependents",
-                "originatorFieldName": "NumberOfDependents",
+                "originatorFieldName": "numberOfDependents",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "politically_exposed",
-                "originatorFieldName": "PoliticallyExposed",
+                "originatorFieldName": "politicallyExposed",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "spouse_occupation",
-                "originatorFieldName": "SpouceOccupation",
+                "originatorFieldName": "spouceOccupation",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "No_of _children",
-                "originatorFieldName": "NoOfChildren",
+                "yubiFieldName": "no_of_children",
+                "originatorFieldName": "noOfChildren",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "Education_Qualification",
-                "originatorFieldName": "EducationQualification",
+                "yubiFieldName": "education_Qualification",
+                "originatorFieldName": "educationQualification",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "Physically_Challenged",
-                "originatorFieldName": "PhisicallyChallenged",
+                "yubiFieldName": "physically_Challenged",
+                "originatorFieldName": "phisicallyChallenged",
                 "datatype": "Boolean"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "customer_category",
-                "originatorFieldName": "CustomerCategory",
+                "originatorFieldName": "customerCategory",
                 "datatype": "String"
               }
             ]
@@ -176,38 +176,38 @@
             "data": [
               {
                 "isMandatory": false,
-                "yubiFieldName": "Source",
-                "originatorFieldName": "Source",
+                "yubiFieldName": "source",
+                "originatorFieldName": "source",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "Total_experience",
-                "originatorFieldName": "TotalExperience",
+                "yubiFieldName": "total_experience",
+                "originatorFieldName": "totalExperience",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "Occupation",
-                "originatorFieldName": "Occupation",
+                "yubiFieldName": "occupation",
+                "originatorFieldName": "occupation",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "Industry1",
-                "originatorFieldName": "Industry1",
+                "yubiFieldName": "industry",
+                "originatorFieldName": "industry",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "currency",
-                "originatorFieldName": "Currency",
+                "originatorFieldName": "currency",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "payment_type",
-                "originatorFieldName": "PaymentType",
+                "originatorFieldName": "paymentType",
                 "datatype": "String"
               }
             ]
@@ -218,19 +218,19 @@
               {
                 "isMandatory": false,
                 "yubiFieldName": "frequency",
-                "originatorFieldName": "Frequency",
+                "originatorFieldName": "frequency",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "type",
-                "originatorFieldName": "Type",
+                "originatorFieldName": "type",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "Value",
-                "originatorFieldName": "Value",
+                "yubiFieldName": "value",
+                "originatorFieldName": "value",
                 "datatype": "String"
               }
             ]
@@ -241,49 +241,49 @@
               {
                 "isMandatory": false,
                 "yubiFieldName": "employer_name",
-                "originatorFieldName": "EmployeeName",
+                "originatorFieldName": "employeeName",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "employed_since",
-                "originatorFieldName": "EmployedSince",
+                "originatorFieldName": "employedSince",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "job_title",
-                "originatorFieldName": "JobTitle",
+                "originatorFieldName": "jobTitle",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "designation",
-                "originatorFieldName": "Designation",
+                "originatorFieldName": "designation",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "Indsutry",
-                "originatorFieldName": "Industry",
+                "yubiFieldName": "indsutry1",
+                "originatorFieldName": "industry1",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "Sector",
-                "originatorFieldName": "Sector",
+                "yubiFieldName": "sector",
+                "originatorFieldName": "sector",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "Work_experience",
-                "originatorFieldName": "WorkExperience",
+                "yubiFieldName": "work_experience",
+                "originatorFieldName": "workExperience",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "is_current_employment",
-                "originatorFieldName": "IsCurrentEmployment",
+                "originatorFieldName": "isCurrentEmployment",
                 "datatype": "String"
               }
             ]
@@ -293,44 +293,44 @@
         "data" : [
             {
         "isMandatory": false,
-        "yubiFieldName": "Client_Customer_ID",
-        "originatorFieldName": "ClientCustomerID",
+        "yubiFieldName": "client_Customer_ID",
+        "originatorFieldName": "clientCustomerID",
         "datatype": "String"
       },
       {
         "isMandatory": false,
-        "yubiFieldName": "Yubi_Borrower_ID",
-        "originatorFieldName": "YubiBorrowerID",
+        "yubiFieldName": "yubi_Borrower_ID",
+        "originatorFieldName": "yubiBorrowerID",
         "datatype": "String"
       },
       {
         "isMandatory": false,
-        "yubiFieldName": "Yubi_Product_Borrower_ID",
-        "originatorFieldName": "YubiProductBorrowerID",
+        "yubiFieldName": "yubi_Product_Borrower_ID",
+        "originatorFieldName": "yubiProductBorrowerID",
         "datatype": "String"
       },
       {
         "isMandatory": true,
-        "yubiFieldName": "Engagement_ID",
-        "originatorFieldName": "EngagementID",
+        "yubiFieldName": "engagement_ID",
+        "originatorFieldName": "engagementID",
         "datatype": "String"
       },
       {
         "isMandatory": true,
-        "yubiFieldName": "Yubi_Borrower_status",
-        "originatorFieldName": "YubiBorrowerStatus",
+        "yubiFieldName": "yubi_Borrower_status",
+        "originatorFieldName": "yubiBorrowerStatus",
         "datatype": "String"
       },
       {
         "isMandatory": false,
-        "yubiFieldName": "Yubi_Product_Borrower_Status",
-        "originatorFieldName": "YubiProductBorrowerStatus",
+        "yubiFieldName": "yubi_Product_Borrower_Status",
+        "originatorFieldName": "yubiProductBorrowerStatus",
         "datatype": "String"
       },
       {
         "isMandatory": false,
-        "yubiFieldName": "Yubi_borrower_Creation_date",
-        "originatorFieldName": "YubiBorrowerCreationDate",
+        "yubiFieldName": "yubi_borrower_Creation_date",
+        "originatorFieldName": "yubiBorrowerCreationDate",
         "datatype": "String"
       }
           ]
@@ -405,13 +405,13 @@
               {
                 "isMandatory": true,
                 "yubiFieldName": "originator_ID",
-                "originatorFieldName": "OriginatorID",
+                "originatorFieldName": "originatorID",
                 "datatype": "String"
               },
               {
                 "isMandatory": true,
-                "yubiFieldName": "Client_customer_ID",
-                "originatorFieldName": "ClientCustomerID",
+                "yubiFieldName": "client_customer_ID",
+                "originatorFieldName": "clientCustomerID",
                 "datatype": "String"
               }
             ]
@@ -421,56 +421,56 @@
             "data": [
               {
                 "isMandatory": false,
-                "yubiFieldName": "CKYC_ID",
-                "originatorFieldName": "CKYCID",
+                "yubiFieldName": "cKYC_ID",
+                "originatorFieldName": "cKYCID",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "CKYC_DATE_OF_birth",
-                "originatorFieldName": "CKYCDateOfBirth",
+                "yubiFieldName": "cKYC_DATE_OF_birth",
+                "originatorFieldName": "cKYCDateOfBirth",
                 "datatype": "Date format"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "CKYC_PAN_NUMBER ",
-                "originatorFieldName": "CKYCPanNumber",
+                "yubiFieldName": "cKYC_PAN_NUMBER",
+                "originatorFieldName": "cKYCPanNumber",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "CKYC_MOBILE NUMBER ",
-                "originatorFieldName": "CKYCMobileNumber",
+                "yubiFieldName": "cKYC_MOBILE NUMBER",
+                "originatorFieldName": "cKYCMobileNumber",
                 "datatype": "Number"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "CKYC_PERMANENT_PINCODE",
-                "originatorFieldName": "CKYCPermanentPincode",
+                "yubiFieldName": "cKYC_PERMANENT_PINCODE",
+                "originatorFieldName": "cKYCPermanentPincode",
                 "datatype": "Number"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "CKYC_PASSPORT_NUMBER",
-                "originatorFieldName": "CKYCPassportNumber",
+                "yubiFieldName": "cKYC_PASSPORT_NUMBER",
+                "originatorFieldName": "cKYCPassportNumber",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "CKYC_DL_NUMBER",
-                "originatorFieldName": "CKYCDLNumber",
+                "yubiFieldName": "cKYC_DL_NUMBER",
+                "originatorFieldName": "cKYCDLNumber",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "CKYC_VOTERID_NUMBER",
-                "originatorFieldName": "CKYCVoterIDNumber",
+                "yubiFieldName": "cKYC_VOTERID_NUMBER",
+                "originatorFieldName": "cKYCVoterIDNumber",
                 "datatype": "String"
               },
               {
                 "isMandatory": true,
-                "yubiFieldName": "CKYC_Action_trigger",
-                "originatorFieldName": "CKYCActionTrigger",
+                "yubiFieldName": "cKYC_Action_trigger",
+                "originatorFieldName": "cKYCActionTrigger",
                 "datatype": "String"
               }
             ]
@@ -785,8 +785,8 @@
               },
               {
                 "isMandatory": true,
-                "yubiFieldName": "Client_customer_ID",
-                "originatorFieldName": "ClientCustomerID",
+                "yubiFieldName": "client_customer_ID",
+                "originatorFieldName": "clientCustomerID",
                 "datatype": "String"
               }
             ]
@@ -797,25 +797,25 @@
               {
                 "isMandatory": true,
                 "yubiFieldName": "type",
-                "originatorFieldName": "Type",
+                "originatorFieldName": "type",
                 "datatype": "String"
               },
               {
                 "isMandatory": true,
-                "yubiFieldName": "Number",
-                "originatorFieldName": "Number",
+                "yubiFieldName": "number",
+                "originatorFieldName": "number",
                 "datatype": "Number"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "Area Code",
-                "originatorFieldName": "AreaCode",
+                "yubiFieldName": "area_Code",
+                "originatorFieldName": "areaCode",
                 "datatype": "Number"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "is_preferred",
-                "originatorFieldName": "IsPreferred",
+                "originatorFieldName": "isPreferred",
                 "datatype": "String"
               }
             ]
@@ -826,13 +826,13 @@
               {
                 "isMandatory": true,
                 "yubiFieldName": "type1",
-                "originatorFieldName": "Type1",
+                "originatorFieldName": "type1",
                 "datatype": "String"
               },
               {
                 "isMandatory": true,
                 "yubiFieldName": "id",
-                "originatorFieldName": "ID",
+                "originatorFieldName": "iD",
                 "datatype": "String"
               },
               {
@@ -849,73 +849,73 @@
               {
                 "isMandatory": true,
                 "yubiFieldName": "addressType",
-                "originatorFieldName": "AddressType",
+                "originatorFieldName": "addressType",
                 "datatype": "String"
               },
               {
                 "isMandatory": true,
                 "yubiFieldName": "ownershipType",
-                "originatorFieldName": "OwnershipType",
+                "originatorFieldName": "ownershipType",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "Area_type",
-                "originatorFieldName": "AreaType",
+                "yubiFieldName": "area_type",
+                "originatorFieldName": "areaType",
                 "datatype": "String"
               },
               {
                 "isMandatory": true,
-                "yubiFieldName": "Addres_Line_1",
-                "originatorFieldName": "AddressLine1",
+                "yubiFieldName": "addres_Line_1",
+                "originatorFieldName": "addressLine1",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "Addres_Line_2",
-                "originatorFieldName": "AddressLine2",
+                "yubiFieldName": "addres_Line_2",
+                "originatorFieldName": "addressLine2",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "Addres_Line_3",
-                "originatorFieldName": "AddressLine3",
+                "yubiFieldName": "addres_Line_3",
+                "originatorFieldName": "addressLine3",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "Geo-Location",
-                "originatorFieldName": "GeoLocation",
+                "yubiFieldName": "geo_Location",
+                "originatorFieldName": "geoLocation",
                 "datatype": "String"
               },
               {
                 "isMandatory": true,
                 "yubiFieldName": "pincode",
-                "originatorFieldName": "PinCode",
+                "originatorFieldName": "pinCode",
                 "datatype": "Number"
               },
               {
                 "isMandatory": true,
                 "yubiFieldName": "city",
-                "originatorFieldName": "City",
+                "originatorFieldName": "city",
                 "datatype": "String"
               },
               {
                 "isMandatory": true,
                 "yubiFieldName": "state",
-                "originatorFieldName": "State",
+                "originatorFieldName": "state",
                 "datatype": "String"
               },
               {
                 "isMandatory": true,
                 "yubiFieldName": "country",
-                "originatorFieldName": "Country",
+                "originatorFieldName": "country",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "Years_of_stay_in_address",
-                "originatorFieldName": "YearsOfStayInAddress",
+                "yubiFieldName": "years_of_stay_in_address",
+                "originatorFieldName": "yearsOfStayInAddress",
                 "datatype": "String"
               }
             ]
@@ -925,44 +925,44 @@
           "data" : [
             {
               "isMandatory": false,
-              "yubiFieldName": "Client_Customer_ID",
+              "yubiFieldName": "client_Customer_ID",
               "originatorFieldName": "clientCustomerID",
               "datatype": "String"
             },
             {
               "isMandatory": false,
-              "yubiFieldName": "Yubi_Borrower_ID",
-              "originatorFieldName": "YubiborrowerId",
+              "yubiFieldName": "yubi_Borrower_ID",
+              "originatorFieldName": "yubiborrowerId",
               "datatype": "String"
             },
             {
               "isMandatory": false,
-              "yubiFieldName": "Yubi_Product_Borrower_ID",
-              "originatorFieldName": "YubiProductBorrowerId",
+              "yubiFieldName": "yubi_Product_Borrower_ID",
+              "originatorFieldName": "yubiProductBorrowerId",
               "datatype": "String"
             },
             {
               "isMandatory": true,
-              "yubiFieldName": "Engagement_ID",
-              "originatorFieldName": "EngagementID",
+              "yubiFieldName": "engagement_ID",
+              "originatorFieldName": "engagementID",
               "datatype": "String"
             },
             {
               "isMandatory": true,
-              "yubiFieldName": "Yubi_Borrower_status",
-              "originatorFieldName": "YubiBorrowerStatus",
+              "yubiFieldName": "yubi_Borrower_status",
+              "originatorFieldName": "yubiBorrowerStatus",
               "datatype": "String"
             },
             {
               "isMandatory": false,
-              "yubiFieldName": "Yubi_Product_Borrower_Status",
-              "originatorFieldName": "YubiProductBorrowerStatus",
+              "yubiFieldName": "yubi_Product_Borrower_Status",
+              "originatorFieldName": "yubiProductBorrowerStatus",
               "datatype": "String"
             },
             {
               "isMandatory": false,
-              "yubiFieldName": "Yubi_borrower_Creation_date",
-              "originatorFieldName": "YubiBorrowerCreationDate",
+              "yubiFieldName": "yubi_borrower_Creation_date",
+              "originatorFieldName": "yubiBorrowerCreationDate",
               "datatype": "String"
             }
           ]
@@ -983,20 +983,20 @@
               },
               {
                 "isMandatory": true,
-                "yubiFieldName": "Client_customer_ID",
-                "originatorFieldName": "ClientCustomerID",
+                "yubiFieldName": "client_customer_ID",
+                "originatorFieldName": "clientCustomerID",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "Client_Application_ID",
-                "originatorFieldName": "ClientApplicationID",
+                "yubiFieldName": "client_Application_ID",
+                "originatorFieldName": "clientApplicationID",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "Client_Loan_ID",
-                "originatorFieldName": "ClientLoanID",
+                "yubiFieldName": "client_Loan_ID",
+                "originatorFieldName": "clientLoanID",
                 "datatype": "String"
               }
             ]
@@ -1007,67 +1007,67 @@
               {
                 "isMandatory": false,
                 "yubiFieldName": "source",
-                "originatorFieldName": "Source",
+                "originatorFieldName": "source",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "sourceType",
-                "originatorFieldName": "SourceType",
+                "originatorFieldName": "sourceType",
                 "datatype": "String"
               },
               {
                 "isMandatory": true,
                 "yubiFieldName": "doc_id",
-                "originatorFieldName": "DocId",
+                "originatorFieldName": "docId",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "format",
-                "originatorFieldName": "Format",
+                "originatorFieldName": "format",
                 "datatype": "String"
               },
               {
                 "isMandatory": true,
                 "yubiFieldName": "type",
-                "originatorFieldName": "Type",
+                "originatorFieldName": "type",
                 "datatype": "String"
               },
               {
                 "isMandatory": true,
-                "yubiFieldName": "url1",
-                "originatorFieldName": "URL1",
+                "yubiFieldName": "url",
+                "originatorFieldName": "uRL",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "data1",
-                "originatorFieldName": "Data1",
+                "yubiFieldName": "data",
+                "originatorFieldName": "data",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "issue_Date",
-                "originatorFieldName": "IssueDate",
+                "originatorFieldName": "issueDate",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "expiry_Date",
-                "originatorFieldName": "ExpiryDate",
+                "originatorFieldName": "expiryDate",
                 "datatype": "Date"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "issuing_Authority",
-                "originatorFieldName": "IssuingAuthority",
+                "originatorFieldName": "issuingAuthority",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
                 "yubiFieldName": "password",
-                "originatorFieldName": "Password",
+                "originatorFieldName": "password",
                 "datatype": "String"
               }
             ]
@@ -1077,14 +1077,14 @@
             "data": [
               {
                 "isMandatory": false,
-                "yubiFieldName": "url",
-                "originatorFieldName": "URL",
+                "yubiFieldName": "url1",
+                "originatorFieldName": "uRL1",
                 "datatype": "String"
               },
               {
                 "isMandatory": false,
-                "yubiFieldName": "data",
-                "originatorFieldName": "Data",
+                "yubiFieldName": "data1",
+                "originatorFieldName": "data1",
                 "datatype": "String"
               }
             ]
@@ -1094,80 +1094,80 @@
           "data" : [
             {
               "isMandatory": true,
-              "yubiFieldName": "Client_customer_ID",
-              "originatorFieldName": "ClientCustomerID",
+              "yubiFieldName": "client_customer_ID",
+              "originatorFieldName": "clientCustomerID",
               "datatype": "String"
             },
             {
               "isMandatory": false,
-              "yubiFieldName": "Yubi_Borrower_ID",
-              "originatorFieldName": "YubiBorrowerID",
+              "yubiFieldName": "yubi_Borrower_ID",
+              "originatorFieldName": "yubiBorrowerID",
               "datatype": "String"
             },
             {
               "isMandatory": false,
-              "yubiFieldName": "Yubi_Product_Borrower_ID",
-              "originatorFieldName": "YubiProductBorrowerID",
+              "yubiFieldName": "yubi_Product_Borrower_ID",
+              "originatorFieldName": "yubiProductBorrowerID",
               "datatype": "String"
             },
             {
               "isMandatory": true,
-              "yubiFieldName": "Engagement_ID",
-              "originatorFieldName": "EngagementID",
+              "yubiFieldName": "engagement_ID",
+              "originatorFieldName": "engagementID",
               "datatype": "String"
             },
             {
               "isMandatory": true,
-              "yubiFieldName": "Yubi_Borrower_status",
-              "originatorFieldName": "YubiBorrowerStatus",
+              "yubiFieldName": "yubi_Borrower_status",
+              "originatorFieldName": "yubiBorrowerStatus",
               "datatype": "String"
             },
             {
               "isMandatory": false,
-              "yubiFieldName": "Yubi_Product_Borrower_Status",
-              "originatorFieldName": "YubiProductBorrowerStatus",
+              "yubiFieldName": "yubi_Product_Borrower_Status",
+              "originatorFieldName": "yubiProductBorrowerStatus",
               "datatype": "String"
             },
             {
               "isMandatory": false,
-              "yubiFieldName": "Yubi_borrower_Creation_date",
-              "originatorFieldName": "YubiBorrowerCreationDate",
+              "yubiFieldName": "yubi_borrower_Creation_date",
+              "originatorFieldName": "yubiBorrowerCreationDate",
               "datatype": "String"
             },
             {
               "isMandatory": false,
-              "yubiFieldName": "Yubi_Document_Id",
-              "originatorFieldName": "YubiDocumentId",
+              "yubiFieldName": "yubi_Document_Id",
+              "originatorFieldName": "yubiDocumentId",
               "datatype": "String"
             },
             {
               "isMandatory": false,
-              "yubiFieldName": "Yubi_Application_Id",
-              "originatorFieldName": "YubiApplicationID",
+              "yubiFieldName": "yubi_Application_Id",
+              "originatorFieldName": "yubiApplicationID",
               "datatype": "String"
             },
             {
               "isMandatory": false,
-              "yubiFieldName": "Yubi_Loan_Id",
-              "originatorFieldName": "YubiLoanID",
+              "yubiFieldName": "yubi_Loan_Id",
+              "originatorFieldName": "yubiLoanID",
               "datatype": "String"
             },
             {
               "isMandatory": false,
-              "yubiFieldName": "Yubi_product_Document_Id",
-              "originatorFieldName": "YubiProductDocumentID",
+              "yubiFieldName": "yubi_product_Document_Id",
+              "originatorFieldName": "yubiProductDocumentID",
               "datatype": "String"
             },
             {
               "isMandatory": false,
-              "yubiFieldName": "Yubi_Product_Application_Id",
-              "originatorFieldName": "YubiProductApplicationID",
+              "yubiFieldName": "yubi_Product_Application_Id",
+              "originatorFieldName": "yubiProductApplicationID",
               "datatype": "String"
             },
             {
               "isMandatory": false,
-              "yubiFieldName": "Yubi_Product_Loan_Id",
-              "originatorFieldName": "YubiProductLoanID",
+              "yubiFieldName": "yubi_Product_Loan_Id",
+              "originatorFieldName": "yubiProductLoanID",
               "datatype": "String"
             },
             {
@@ -1178,14 +1178,14 @@
             },
             {
               "isMandatory": false,
-              "yubiFieldName": "Client_Loan_ID",
-              "originatorFieldName": "CLientLoanId",
+              "yubiFieldName": "client_Loan_ID",
+              "originatorFieldName": "cLientLoanId",
               "datatype": "String"
             },
             {
               "isMandatory": true,
               "yubiFieldName": "doc_id",
-              "originatorFieldName": "DocID",
+              "originatorFieldName": "docID",
               "datatype": "String"
             }
           ]
